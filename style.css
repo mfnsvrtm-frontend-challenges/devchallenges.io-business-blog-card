@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+}
+
+/* Typography */
+
+.card-heading, .card-name {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+
+.card-name, .card-text, .card-position {
+    font-family: 'Lato', sans-serif;
+}
+
+.card-name {
+    font-weight: 700;
+    font-size: 1.125rem;
+}
+
+.card-text, .card-position {
+    font-weight: 400;
+}
+
+.card-position {
+    font-size: 0.725rem;
+}
+
+/* Color & Layout */
+
+body {
+    color: #677489;
+    background-color: #F2F5F9;
+}
+
+.card-heading, .card-name {
+    color: #111729;
+}
+
+.card, .card-hero {
+    border-radius: 12px;
+}
+
+.card {
+    width: 418px;
+    margin: 0 auto;
+    margin-top: 124px;
+    background-color: white;
+}
+
+/* Image Section */
+
+.card-top {
+    position: relative;
+}
+
+.card-hero, .card-decoration {
+    display: block;
+    margin: 0;
+}
+
+.card-hero {
+    width: 100%;
+}
+
+.card-decoration {
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+
+/* Middle Section */
+
+.card-main, .card-bottom {
+    padding: 0 2rem;
+}
+
+.card-main {
+    padding-bottom: 1.5rem;
+}
+
+.card-heading {
+    margin: 0;
+    letter-spacing: -0.05em;
+}
+
+.card-text {
+    margin-top: 13px;
+    margin-bottom: 0;
+
+    letter-spacing: 0.006em;
+    line-height: 1.5;
+}
+
+/* Bottom Section */
+
+.card-bottom {
+    display: flex;
+    padding: 1.5rem 2rem;
+    border-top: 1px solid #F2F5F9;
+}
+
+.card-avatar {
+    width: 43px;
+    height: 43px;
+
+    border-radius: 100%;
+    border: 4px solid #F2F5F9;
+}
+
+.card-avatar-text {
+    margin-left: 12px;
+}
+
+.card-name, .card-position {
+    margin: 0;
+}
+
+.card-name {
+    letter-spacing: -0.07rem;
+}
+
+.card-position {
+    letter-spacing: 0.02rem;
+}
